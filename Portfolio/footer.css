@@ -1,0 +1,23 @@
+.pie{
+	background-color: black;
+	margin-bottom: 0px;
+}
+
+.aviso{
+	margin-bottom: 0px;
+}
+
+#t4{
+	position: relative;
+	top: 30px;
+	color: #ffffff;
+}
+
+h6{
+	color: #ffffff;
+}
+
+.pie2{
+	position: relative;
+	bottom: 20px;
+}

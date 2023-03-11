@@ -1,0 +1,61 @@
+body{
+background-color: white;
+}
+
+#contenedor1{ 
+  background-color: white;
+  height: 650px;
+}
+
+
+.container{
+  max-width: 3000px;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 450px;
+  background-image: url("Imagenes/fondo.jpg");
+}
+
+.p1{
+  font-size: 18px;
+  font-family: cursive;
+  color: white;
+}
+
+#p2{
+  font-size: 18px;
+  font-family: arial;
+  color: black;
+}
+
+.tit2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  color: black;
+  font-weight: 200;
+}
+
+#navh4{
+  position: relative;
+  bottom: -30px;
+}
+
+.col{
+  position: relative;
+  bottom: -70px ;
+}
+
+#contenedor2{
+  margin-top: 70px;
+  flex: display;
+  text-align: center;
+  height: 250px;
+}
+
+.pie1{
+  height: 100px;
+}
+
+
+
+  

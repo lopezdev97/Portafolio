@@ -1,0 +1,41 @@
+.portimg{
+  width: 200px;
+  height: 200px;
+}
+
+.portimg:hover{
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5)
+}
+
+#avatar{
+  height:350px ;
+  width:350px ;
+  position: relative;
+  top: 150px;
+}
+
+#nom {
+  position: relative;
+  bottom: 280px;
+  font-size: 40px;
+  font-family: ginebra;
+  color: #17a1a2;
+  font-weight: bold;
+}
+
+#tra{
+  position: relative;
+  top: 150px;
+  font-size: 30px;
+  font-family: ginebra;
+  color: #17a1a2;
+}
+
+.pie2{
+  height: 30px;
+  width: 30px;
+}

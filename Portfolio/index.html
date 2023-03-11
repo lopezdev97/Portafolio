@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lopez Elian-Portfolio</title>
+	<meta name="author" content="Lopez Eian">
+	<link rel="Icon" href="Imagenes/icono.ico">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <link rel="stylesheet" type="text/css" href="navegacion.css">
+  <link rel="stylesheet" type="text/css" href="imagenes.css">
+  <link rel="stylesheet" type="text/css" href="Formulario.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="footer.css" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="navegacion">
+    <nav class="navbar">
+      <h4 id="logo">FSLopez</h4>
+        <a href="#navh4">Portfolio</a>
+        <a href="#contenedor2">Acerca de mi</a>
+        <a href="#form">Contacto</a>
+    </nav>
+  </div>
+</header>
+<center>
+	<div id="contenedor1">
+			<img id="avatar" src="Imagenes/AvatarLopez.jpg" title="perfil"><br>
+			<h5 id="nom">LOPEZ ELIAN AGUSTIN<h5>
+			<h6 id="tra">Diseñador Web</h6>
+	</div><br>
+</center>
+<center>
+<div class="container text-center">
+	 <h2 id="navh4" class="tit2">Portfolio</h2>
+    <div class="row align-items-start">
+      <div class="col">
+    	 <a href="">
+    	 <img class="portimg" src="Imagenes/davidpisnoy.jpg" title="colores" ></a><br>
+        <p class="p1">Color Game<br>Proximamente</p>
+      </div>
+     <div class="col">
+    	 <img class="portimg" src="Imagenes/lista.jpg" title="lista"><br>
+      <p class="p1">To do List<br>Proximante</p>
+      </div>
+     <div class="col">
+      	<img class="portimg"src="Imagenes/gavinallanwood.jpg" title="clima"><br>
+       <p class="p1">Weather Chanel<br>Proximamente</p>
+      </div>
+    </div>
+  </div>
+</center>
+<div id="contenedor2">
+  <h2 class="tit2">Acerca de mi</h2><br>
+  	<p id="p2">Tengo 25 años, actualmente estoy estudiando y realizando cursos <br> para convertirme en Full Stack Developer, me apasiona la programacion, la tecnologia y el diseño. <br>Mi mayor anhelo es trabajar para una gran compañia, de la que pueda adquirir<br> las compentencias y conocimientos que me faltan para ser un gran desarrolador</p>
+</div>
+<center>
+  <div id="form">
+    <h2 class="tit2">Formulario de contacto</h2>
+    <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+      <form action="" method="post">       
+        <p>
+          <label for="nombre" class="colocar_nombre">Nombre
+            <span class="obligatorio">*</span>
+          </label>
+          <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+        </p>
+        <p>
+          <label for="email" class="colocar_email">Email
+            <span class="obligatorio">*</span>
+          </label>
+            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+        </p>
+        <p>
+          <label for="telefone" class="colocar_telefono">Teléfono
+          </label>
+            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+        </p>    
+        <p>
+          <label for="asunto" class="colocar_asunto">Asunto
+            <span class="obligatorio">*</span>
+            </label>
+              <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+        </p>    
+        <p>
+          <label for="mensaje" class="colocar_mensaje">Mensaje
+            <span class="obligatorio">*</span>
+          </label>                     
+            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario...">
+             </textarea> 
+        </p>                    
+        <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+        <p class="aviso">
+          <span class="obligatorio"> * </span>los campos son obligatorios.
+       </p>          
+        </form>
+    </div>
+</center>
+<center class="pie">
+  <footer>
+    <div>
+      <h3 id="t4">En Redes</h3><br>
+        <a target="_BLANK" href="https://www.linkedin.com/in/elianagustinlopez/"><img class="pie2" src="Imagenes/in.png" title="contact"></a>
+        <a target="_BLANK" href="mailto:alopez@outlook.com"><img class="pie2" src="Imagenes/email.png" title="contact"></a>
+      <h6>&#9400; Lopez Elian Agustin</h6>
+    </div>
+  </footer>
+</center>
+</body>
+</html>

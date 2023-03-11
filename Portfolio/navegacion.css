@@ -1,0 +1,26 @@
+.navbar{
+margin: 0px;
+padding: 0px;
+width: 100%;
+display: flex;
+justify-content:start;
+background-color: #140f07;
+}
+
+a{
+  font-family:arial;
+  text-decoration:none;
+  color:white;
+  padding: 10px 10px;
+}
+a:hover{
+  background-color:#00789b;
+  color:white;
+}
+
+#logo{
+	color: #00a6ff;
+	line-height: 1;
+	font-family: georgia;
+	font-weight:1000;
+}
